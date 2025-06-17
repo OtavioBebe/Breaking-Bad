@@ -1,0 +1,86 @@
+body {
+     font-family:  arial;
+     background-color: #e7be19;
+     margin: 0; 
+     padding: 0;
+}
+  header {
+  	 background-color: #000000;
+  	 text-align: center;
+}
+
+div.container {
+	max-width: 1800px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+h1 {
+	color: #000000;
+}
+
+p {
+	color: #000000;
+	font-size: 14px;
+}
+
+p.texto {
+	color: #000000;
+}
+
+
+
+p.texto2 {
+	color: #ffffff;
+}
+
+ footer {
+ 	background-color: #e3b67f;
+ 	text-align: center;
+}
+
+caption {
+    font-weight: bold;
+}
+
+table {
+  border:;
+  border: 5px solid black; /* Define uma borda de 5px */
+  border-collapse: collapse;
+  font-size: 26px;
+}
+  
+  th, td {
+    border: 5px solid black; /* Aplica borda nas células */
+    padding: 10px;
+  }
+
+    caption {
+        font-weight: bold;
+        font-size: 38px; /* Ajusta o tamanho da fonte */
+        color: #333; /* Define a cor do texto */
+    } 
+
+nav.menu ul {
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+  display: flex;
+  background-color: #e7be19;
+}    
+
+nav.menu li {
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+nav.menu a {
+	display: block;
+	color: #000000;
+	text-decoration: none;
+}
+
+nav.menu a:hover {
+	background-color: #a1f2fe;
+}
